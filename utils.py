@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 from answers import CAN_I_IN_POLAND_GET_VISA, HOW_TO_GO_OUT, EXPIRE_VISA, \
     RECOMENDATION, CAR_IN_POLAND, CARANTIN, BLUE_CARD, IP_CHAT, INCUBATOR, \
-    ANKETA, INSURE_FOR_VISA, VISA_FOR_FAMILY, GRUZIA, PESEL
+    ANKETA, INSURE_FOR_VISA, VISA_FOR_FAMILY, GRUZIA, PESEL, BANKI
 
 messages = {
     CAN_I_IN_POLAND_GET_VISA: "В настоящее время продлить визу или сделать новую визу в Польше нельзя,"
@@ -43,7 +43,7 @@ messages = {
                      "Информация о визе для родителей: #визадляродителей . Ваша девушка/парень могут получить обычную D23 без права работы. ",
     GRUZIA: "Больше информации вы можете найти в чате PBH в грузии https://t.me/PBH_GE2PLN",
     PESEL: "Как получить песель без мельдунка: https://t.me/PBH\_BY2PLN/83864",
-    BANKI:"Удаленно открыть счет нельзя. Самый просто вариант открыть счет по визе это PKO."
+    BANKI:"Удаленно открыть счет нельзя. Самый просто вариант открыть счет по визе это PKO. Песель и ВНЖ не требуется"
 }
 
 stemer = Stemmer('russian')
